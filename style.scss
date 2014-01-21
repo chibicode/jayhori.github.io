@@ -2,8 +2,19 @@
 
 $font-stack: Helvetica, arial, sans-serif;
 $primary-color: #333;
+$light-color: #FFF;
 
 body {
 	font: 100% $font-stack;
-	color: $primary-color;
+	color: $primary-color;	
 }
+
+.input-size {
+	width: 100px;
+}
+
+p.white {
+		color: $light-color;	
+}
+
+@import 'grids';
