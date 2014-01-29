@@ -9,10 +9,35 @@ body {
 p.white {
   color: white; }
 
+.wrapper {
+  width: 400px; }
+
 .single {
+  clear: both;
+  float: left;
   width: 400px;
   height: 400px;
   margin: 0;
   padding: 0;
+  border: 10px;
+  background-color: black;
+  border-color: green; }
+
+.half_left {
+  clear: both;
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
   border: 0;
-  background-color: black; }
+  background-color: blue; }
+
+.half_right {
+  float: right;
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: red; }
