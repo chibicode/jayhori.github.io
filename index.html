@@ -1,25 +1,57 @@
-<!DOCTYPE html>
-<html ng-app>
-	<head>
-		<title>a GitHub page</title>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		
-	</head>
-	<body>
-	
-		<div class="wrapper">
-		<div class="single">
-			<input class="input-size" type="text" ng-model="name" placeholder="Enter a name here">
-			<p class="white">Hello {{name}}!</p>
-		</div>
-		
-		<div class="half_left">
-			<p>test</p>
-		</div>
-		<div class="half_right">
-			<p>test</p>
-		</div>
-		</div>
-	</body>
+<!doctype html>
+
+<html>
+<head>
+	<title>a GitHub page</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.min.js"></script>
+	<link rel="stylesheet" href="_/css/styles.css">
+	<meta name="viewpoint" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+	<header>
+		<div class="hero">
+			<section class="layout">
+				<div><p>Logo</p>
+				</div> <!-- branding -->
+			</section> <!-- layout -->
+		</div> <!-- hero -->
+		<div class="navigation">
+			<section class="layout">
+				<ul class="nav">
+					<li>
+						<a href="index.html">
+							<i class="fa fa-home"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/jayhori">
+							<i class="fa fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="http://github.com/jayhori">
+							<i class="fa fa-github"></i>
+						</a>
+					</li>
+				</ul>
+			</section><!-- layout -->
+		</div> <!-- navigation -->
+	</header><!-- header -->
+	<input class="input-size" type="text" ng-model="name" placeholder="Enter a name here">
+	<p class="white">Hello {{name}}!</p>
+	<footer>
+		<section class="layout">
+			<div class="socialmediaicons">
+				<span class="title">
+					Join the movement:
+				</span>
+			</div>
+		</section>
+	</footer>
+
+	<h1>Yeah</h1>
+	<p>Lrem ipsum</p>
+	<script src="_/js/script.js"></script>
+	<script src="http://localhost:35729/livereload.js"></script>
+</body>
 </html>

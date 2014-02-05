@@ -1,0 +1,19 @@
+@import "compass";
+@import url('http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+
+.layout {
+	padding: 2%;
+}
+
+
+
+$base-color: lighten(black, 40%);
+
+
+
+a {
+	color: $base-color;
+	&:hover {
+		color: lighten($base-color, 40%);
+	}
+}
