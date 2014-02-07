@@ -1,0 +1,42 @@
+body {
+  background-color: $ghostwhite;
+  font-size: 1.2rem;
+  line-height: 160%;
+}
+
+#{headings()} {
+  
+  font-weight: normal;
+ 
+  @include text-shadow(blue 1px 1px);
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: lighten($linen, 25);
+  margin-bottom: .4rem;
+  background-color: $snow;
+
+}
+
+.page {
+  // page acts as a container for our grid.
+  @include container;
+
+  // header and footer are full-width by default.
+  header, footer { clear: both; }
+
+  // nav spans 3 columns of total 12.
+  nav { @include span-columns(3,12); }
+
+  .content {
+    // content spans the final (omega) 9 columns of 12.
+    @include span-columns(9 omega,12);
+
+    // main content spans 6 of those 9 columns.
+    .main { @include span-columns(6,9); }
+
+    // secondary content spans the final 3 (omega) of 9 columns.
+    .secondary { @include span-columns(3 omega,9); }
+  }
+}
