@@ -1,41 +1,25 @@
 //Susy setup -------------------------------------
-$total-colums : 12;
-$column-width : 4em;
-$gutter-width : 1em;
-$grid-padding : $gutter-width;
+$total-columns  : 10;             // a 12-column grid
+$column-width   : 4em;            // each column is 4em wide
+$gutter-width   : 1em;            // 1em gutters between columns
+$grid-padding   : $gutter-width;  // grid-padding equal to gutters
 
 @include border-box-sizing;
 
-$small : 30em;
-$medium : 47em;
-$large : 75em;
+$tablet : 8;
+$computer : 55em 12;
 
 //Content -----------------------------------------
 
 .layout {
 	@include container;
 	padding: 3%;
+}
 
-	.primary {
-		margin-top: .2em;
-		@include at-breakpoint($small) {
-			@include span-columns(8,12);
-			#test {
-				@include border-radius(20px);
-				color: paleyellow;
-				margin-bottom: 10px;
-				margin-top: 10px;
-				background: green;
-				h1 {
-					color: darken(cyan, 15%);
-					border: none;
-					text-shadow: none;
-					margin-bottom: 20px;
-				}
-				a {
-					color: darkblue;
-				}
-			}
-		}
-	}
+
+// Icons ------------------------------------------
+
+.icon {
+	float: left;
+	padding: 3px;
 }

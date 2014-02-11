@@ -1,7 +1,37 @@
 body {
+    .name {
+    display: none;
+  }
+
   background-color: $ghostwhite;
   font-size: 1.2rem;
   line-height: 160%;
+  a { text-decoration: none; }
+  .lorem {
+    background-color: $lightblue;
+  }
+}
+
+@include at-breakpoint($tablet){
+  body {
+    .name { display: inline};
+    .lorem {
+      @include span-columns(4,8);
+    }
+    .typi {
+      @include span-columns(4 omega,8);
+    }
+  }
+}
+
+@include at-breakpoint($computer){
+  header {
+    .navigation {
+      @include span-columns(4,8);
+    }
+  }
+  body {
+  }
 }
 
 #{headings()} {
@@ -19,24 +49,13 @@ h1 {
 
 }
 
-.page {
-  // page acts as a container for our grid.
-  @include container;
-
-  // header and footer are full-width by default.
-  header, footer { clear: both; }
-
-  // nav spans 3 columns of total 12.
-  nav { @include span-columns(3,12); }
-
-  .content {
-    // content spans the final (omega) 9 columns of 12.
-    @include span-columns(9 omega,12);
-
-    // main content spans 6 of those 9 columns.
-    .main { @include span-columns(6,9); }
-
-    // secondary content spans the final 3 (omega) of 9 columns.
-    .secondary { @include span-columns(3 omega,9); }
+a {
+  color: $base-font-color;
+  &:hover {
+    color: lighten($base-font-color, 40%);
   }
+}
+
+footer {
+  clear: both;
 }
