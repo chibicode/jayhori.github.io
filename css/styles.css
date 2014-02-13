@@ -117,6 +117,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: table;
   clear: both;
 }
+@media (min-width: 41em) {
+  /* line 18, ../components/sass/_layout.scss */
+  .layout {
+    max-width: 41em;
+  }
+}
+@media (min-width: 61em) {
+  /* line 18, ../components/sass/_layout.scss */
+  .layout {
+    max-width: 61em;
+  }
+}
 
 /* line 26, ../components/sass/_layout.scss */
 .icon {
@@ -168,19 +180,29 @@ body .typi {
 }
 @media (min-width: 61em) {
   /* line 33, ../components/sass/_base.scss */
-  header .navigation {
-    width: 48.71795%;
+  body .name {
+    display: inline;
+  }
+  /* line 34, ../components/sass/_base.scss */
+  body .lorem {
+    width: 49.15254%;
     float: left;
-    margin-right: 2.5641%;
+    margin-right: 1.69492%;
+  }
+  /* line 37, ../components/sass/_base.scss */
+  body .typi {
+    width: 49.15254%;
+    float: right;
+    margin-right: 0;
   }
 }
-/* line 41, ../components/sass/_base.scss */
+/* line 43, ../components/sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   text-shadow: blue 1px 1px;
 }
 
-/* line 48, ../components/sass/_base.scss */
+/* line 50, ../components/sass/_base.scss */
 h1 {
   font-family: Baskerville, serif;
   font-size: 2.2rem;
@@ -189,16 +211,16 @@ h1 {
   background-color: snow;
 }
 
-/* line 57, ../components/sass/_base.scss */
+/* line 59, ../components/sass/_base.scss */
 a {
   color: #333333;
 }
-/* line 59, ../components/sass/_base.scss */
+/* line 61, ../components/sass/_base.scss */
 a:hover {
   color: #999999;
 }
 
-/* line 64, ../components/sass/_base.scss */
+/* line 66, ../components/sass/_base.scss */
 footer {
   clear: both;
 }

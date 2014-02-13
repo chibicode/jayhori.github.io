@@ -29,12 +29,14 @@ body {
 }
 
 @include at-breakpoint($computer){
-  header {
-    .navigation {
-      @include span-columns(4,8);
-    }
-  }
   body {
+    .name { display: inline};
+    .lorem {
+      @include span-columns(6,12);
+    }
+    .typi {
+      @include span-columns(6 omega,12);
+    }
   }
 }
 

@@ -16,7 +16,7 @@ $computer : 12;
 //Content -----------------------------------------
 
 .layout {
-	@include container;
+	@include container ($total-columns, $tablet, $computer);
 	padding: 3%;
 }
 
