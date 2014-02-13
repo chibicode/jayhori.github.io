@@ -1,5 +1,5 @@
 require 'susy'
-css_dir = '_/CSS'
-sass_dir = '_/components/sass'
-javascripts_dir = '_/js'
+css_dir = 'CSS'
+sass_dir = 'components/sass'
+javascripts_dir = 'js'
 output_style = :expanded
