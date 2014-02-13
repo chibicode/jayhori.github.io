@@ -33,4 +33,4 @@ module.exports = function(grunt) {
 		} //watch
 	}) //initConfig
 	grunt.registerTask('default', 'watch');
-} //exports						
+} //exports			
