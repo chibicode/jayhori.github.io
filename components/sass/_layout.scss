@@ -5,7 +5,7 @@ $gutter-width   : 1em;            // 1em gutters between columns
 $grid-padding   : $gutter-width;  // grid-padding equal to gutters
 @include border-box-sizing;
 
-$tablet : 47em 8; // 47em is roughly speaking, around 750px wide with 16px body font
+$tablet : 55em 8; // 47em is roughly speaking, around 750px wide with 16px body font
 $computer : 75em 12; // 75em is roughly speaking, around 1200px wide with 16px body font
 
 
