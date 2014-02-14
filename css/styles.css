@@ -138,41 +138,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 1, ../components/sass/_base.scss */
 body {
+  font-size: 1em;
   font-weight: 300;
   font-family: source-sans-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: ghostwhite;
   font-size: 1.2rem;
   line-height: 160%;
 }
-/* line 4, ../components/sass/_base.scss */
+/* line 5, ../components/sass/_base.scss */
 body .name {
   display: none;
 }
-/* line 11, ../components/sass/_base.scss */
+/* line 12, ../components/sass/_base.scss */
 body a {
   text-decoration: none;
 }
-/* line 12, ../components/sass/_base.scss */
+/* line 13, ../components/sass/_base.scss */
 body .lorem {
   background-color: #ccffff;
 }
-/* line 15, ../components/sass/_base.scss */
+/* line 16, ../components/sass/_base.scss */
 body .typi {
   background-color: #99ffff;
 }
 
 @media (min-width: 41em) {
-  /* line 22, ../components/sass/_base.scss */
+  /* line 23, ../components/sass/_base.scss */
   body .name {
     display: inline;
   }
-  /* line 23, ../components/sass/_base.scss */
+  /* line 24, ../components/sass/_base.scss */
   body .lorem {
     width: 48.71795%;
     float: left;
     margin-right: 2.5641%;
   }
-  /* line 26, ../components/sass/_base.scss */
+  /* line 27, ../components/sass/_base.scss */
   body .typi {
     width: 48.71795%;
     float: right;
@@ -180,30 +181,30 @@ body .typi {
   }
 }
 @media (min-width: 61em) {
-  /* line 34, ../components/sass/_base.scss */
+  /* line 35, ../components/sass/_base.scss */
   body .name {
     display: inline;
   }
-  /* line 35, ../components/sass/_base.scss */
+  /* line 36, ../components/sass/_base.scss */
   body .lorem {
     width: 48.97959%;
     float: left;
     margin-right: 2.04082%;
   }
-  /* line 38, ../components/sass/_base.scss */
+  /* line 39, ../components/sass/_base.scss */
   body .typi {
     width: 48.97959%;
     float: right;
     margin-right: 0;
   }
 }
-/* line 44, ../components/sass/_base.scss */
+/* line 45, ../components/sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   text-shadow: blue 1px 1px;
 }
 
-/* line 51, ../components/sass/_base.scss */
+/* line 52, ../components/sass/_base.scss */
 h1 {
   font-family: chaparral-pro, Georgia, "Times New Roman", Times, serif;
   font-size: 2.2rem;
@@ -212,16 +213,16 @@ h1 {
   background-color: snow;
 }
 
-/* line 60, ../components/sass/_base.scss */
+/* line 61, ../components/sass/_base.scss */
 a {
   color: #333333;
 }
-/* line 62, ../components/sass/_base.scss */
+/* line 63, ../components/sass/_base.scss */
 a:hover {
   color: #999999;
 }
 
-/* line 67, ../components/sass/_base.scss */
+/* line 68, ../components/sass/_base.scss */
 footer {
   clear: both;
 }
