@@ -87,13 +87,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: table;
   clear: both;
 }
-@media (min-width: 641px) {
+@media (min-width: 1000px) {
   /* line 11, ../components/sass/_layout.scss */
   .page {
     max-width: 41em;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 1500px) {
   /* line 11, ../components/sass/_layout.scss */
   .page {
     max-width: 61em;
@@ -117,13 +117,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: table;
   clear: both;
 }
-@media (min-width: 641px) {
+@media (min-width: 1000px) {
   /* line 17, ../components/sass/_layout.scss */
   .layout {
     max-width: 41em;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 1500px) {
   /* line 17, ../components/sass/_layout.scss */
   .layout {
     max-width: 61em;
@@ -161,7 +161,7 @@ body .typi {
   background-color: #99ffff;
 }
 
-@media (min-width: 641px) {
+@media (min-width: 1000px) {
   /* line 22, ../components/sass/_base.scss */
   body .name {
     display: inline;
@@ -179,7 +179,7 @@ body .typi {
     margin-right: 0;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 1500px) {
   /* line 34, ../components/sass/_base.scss */
   body .name {
     display: inline;
