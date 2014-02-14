@@ -71,13 +71,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   box-sizing: border-box;
 }
 
-@media (min-width: 41em) {
+/* line 12, ../components/sass/_layout.scss */
+.page {
+  *zoom: 1;
+  max-width: 61em;
+  _width: 61em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 38, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.page:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 30em) {
   /* line 12, ../components/sass/_layout.scss */
   .page {
     max-width: 41em;
   }
 }
-@media (min-width: 61em) {
+@media (min-width: 55em) {
   /* line 12, ../components/sass/_layout.scss */
   .page {
     max-width: 61em;
@@ -86,15 +102,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 18, ../components/sass/_layout.scss */
 .layout {
+  *zoom: 1;
+  max-width: 61em;
+  _width: 61em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
   padding: 3%;
 }
-@media (min-width: 41em) {
+/* line 38, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.layout:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 30em) {
   /* line 18, ../components/sass/_layout.scss */
   .layout {
     max-width: 41em;
   }
 }
-@media (min-width: 61em) {
+@media (min-width: 55em) {
   /* line 18, ../components/sass/_layout.scss */
   .layout {
     max-width: 61em;
@@ -133,7 +162,7 @@ body .typi {
   background-color: #99ffff;
 }
 
-@media (min-width: 41em) {
+@media (min-width: 30em) {
   /* line 23, ../components/sass/_base.scss */
   body .name {
     display: inline;
@@ -151,7 +180,7 @@ body .typi {
     margin-right: 0;
   }
 }
-@media (min-width: 61em) {
+@media (min-width: 55em) {
   /* line 35, ../components/sass/_base.scss */
   body .name {
     display: inline;
