@@ -87,7 +87,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: table;
   clear: both;
 }
-@media (min-width: 640px) {
+@media (min-width: 641px) {
   /* line 11, ../components/sass/_layout.scss */
   .page {
     max-width: 41em;
@@ -117,7 +117,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: table;
   clear: both;
 }
-@media (min-width: 640px) {
+@media (min-width: 641px) {
   /* line 17, ../components/sass/_layout.scss */
   .layout {
     max-width: 41em;
@@ -161,7 +161,7 @@ body .typi {
   background-color: #99ffff;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 641px) {
   /* line 22, ../components/sass/_base.scss */
   body .name {
     display: inline;
