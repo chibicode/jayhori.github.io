@@ -1,45 +1,50 @@
 body {
+
+  background-color: none;
   font-size: $font-size-regular;
+  line-height: 1.8rem;
   font-weight: $font-weight-regular;
-  font-family: $font-family-text;
+  font-family: $font-text;
     .top {
       float:left;
       padding: 3px;
-      font-family: $font-family-code;
-      font-size: $font-size-small;
+      font-family: $font-display;
+      font-size: $font-size-regular;
     }
     .role {
       display: none;
     }
-    .lightened {
-          color: lighten(black, 80%);
-          font-weight: $font-weight-light;
-        }
     .name {
     display: none;
   }
   p {
     color: $base-font-color;
   }
-
-  background-color: $ghostwhite;
-  font-size: 1.2rem;
-  line-height: 160%;
   a { text-decoration: none; }
+  .line {
+    background-color: black;
+    height: 2px;
+  }
   .lorem {
-    background-color: $lightblue;
+    background-color: none;
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 1px; 
   }
   .typi {
-    background-color: darken($lightblue, 10%);
+    background-color: none;
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 1px; 
   }
 }
 
-@include at-breakpoint($tablet){
+@include at-breakpoint($computer){
   body {
     .name { display: inline};
     .role { display: inline};
     .icon {
-      float:left;
+      float: right;
     }
     .lorem {
       @include span-columns(4,8);
@@ -50,33 +55,11 @@ body {
   }
 }
 
-@include at-breakpoint($computer){
-  body {
-    .name { display: inline};
-    .role { display: inline};
-    .lorem {
-      @include span-columns(5,10);
-    }
-    .typi {
-      @include span-columns(5 omega,10);
-    }
-  }
-}
-
 #{headings()} {
   
   font-weight: normal;
  
   @include text-shadow(blue 1px 1px);
-}
-
-h1 {
-  font-family: $font-family-display;
-  font-size: 2.2rem;
-  color: lighten($linen, 25);
-  margin-bottom: .4rem;
-  background-color: $snow;
-
 }
 
 a {

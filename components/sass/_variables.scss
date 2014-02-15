@@ -8,13 +8,16 @@ $font-secondary: Baskerville, serif;
 
 $base-font-color: lighten(black, 20%);
 
-$font-size-small: .8em;
-$font-size-regular: 1em;
+$font-size-small: 0.8rem;
+$font-size-regular: 1rem;
+$font-size-large: 1.2rem;
 
 $font-weight-light:	200;
 $font-weight-regular:	300;
 $font-weight-bold:	500;
 
-$font-family-text:	source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$font-family-display:	chaparral-pro, Georgia, 'Times New Roman', Times, serif;
-$font-family-code:	source-code-pro, Monaco, Menlo, Consolas, 'Courier New', monospace;
+// Source-Sans is an Adobe project aiming for clarity in small screens
+// Helvetica Neue was chosen in iOS 7 for clarity in the iOS 7 devices
+$font-text:	source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-display:	chaparral-pro, Georgia, 'Times New Roman', Times, serif;
+$font-code:	source-code-pro, Monaco, Menlo, Consolas, 'Courier New', monospace;
