@@ -2,8 +2,24 @@ body {
   font-size: $font-size-regular;
   font-weight: $font-weight-regular;
   font-family: $font-family-text;
+    .top {
+      float:left;
+      padding: 3px;
+      font-family: $font-family-code;
+      font-size: $font-size-small;
+    }
+    .role {
+      display: none;
+    }
+    .lightened {
+          color: lighten(black, 80%);
+          font-weight: $font-weight-light;
+        }
     .name {
     display: none;
+  }
+  p {
+    color: $base-font-color;
   }
 
   background-color: $ghostwhite;
@@ -21,6 +37,10 @@ body {
 @include at-breakpoint($tablet){
   body {
     .name { display: inline};
+    .role { display: inline};
+    .icon {
+      float:left;
+    }
     .lorem {
       @include span-columns(4,8);
     }
@@ -33,6 +53,7 @@ body {
 @include at-breakpoint($computer){
   body {
     .name { display: inline};
+    .role { display: inline};
     .lorem {
       @include span-columns(5,10);
     }
