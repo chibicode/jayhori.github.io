@@ -9,13 +9,28 @@
 </head>
 <body class="page">
 	<header>
+		<div class="space"></div>
 		<div class="line"></div>
 		<div class="navigation">
 			<section class="layout">
 				<ul class="nav">
+				<li>
+				<canvas id="myCanvas" width="66" height="33"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.moveTo(00, 33);
+      context.lineTo(66, 00);
+      context.strokeStyle = '#00FFFF';
+      context.lineWidth = 1;
+      context.stroke();
+    </script>
+    			</li>
 					<li class="top">
-						<p>Jay Hori <span class="role">| Interaction Designer</span>
-						</p>
+					<p>Jay Hori <span class="role">| Interaction Designer</span>
+					</p>
 					</li>
 					<li class="icon">
 						<a href="http://github.com/jayhori">
@@ -34,9 +49,11 @@
 
 
 	<div class="layout lorem">
-		<p >Information Architects Inc. designs and builds interactive products. Focusing on the essence, our sites and apps outgrow the competition. iA runs offices in Tokyo and Zurich. more</p>
+		<p>
+			As a user interface specialist, I base my design decisions on <b>cognitive science</b>, and I <b>code</b> to excute my ideas. <a href="#"><u>more</u></a>
+		</p>
 	</div>
-		<p class="layout typi">iA is a strategic design agency. We help corporations achieve their business goals by optimizing the production, flow, and clarity of communication.</p>
+		<p class="layout typi">Here is an example of what I do.</p>
 	<script src="js/script.js"></script>
 	<script src="http://localhost:35729/livereload.js"></script>
 </body>

@@ -2,14 +2,19 @@ body {
 
   background-color: none;
   font-size: $font-size-regular;
-  line-height: 1.8rem;
+  line-height: 1.7rem;
   font-weight: $font-weight-regular;
   font-family: $font-text;
+    #myCanvas {
+      float: left;
+      color: blue;
+    }
     .top {
-      float:left;
+      float: left;
       padding: 3px;
       font-family: $font-display;
       font-size: $font-size-regular;
+      margin-left: -66px;
     }
     .role {
       display: none;
@@ -17,14 +22,26 @@ body {
     .name {
     display: none;
   }
+    .code {
+      font-family: $font-code;
+    }
+
   p {
     color: $base-font-color;
+
   }
   a { text-decoration: none; }
+
+  b { font-weight: $font-weight-bold;}
+
+  .space {
+    height: 0px;
+  }
   .line {
     background-color: black;
-    height: 2px;
+    height: 5px;
   }
+
   .lorem {
     background-color: none;
     border-top-color: black;

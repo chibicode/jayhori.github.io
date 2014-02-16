@@ -128,46 +128,64 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
   background-color: none;
   font-size: 1rem;
-  line-height: 1.8rem;
-  font-weight: 300;
+  line-height: 1.7rem;
+  font-weight: 400;
   font-family: source-sans-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 /* line 8, ../components/sass/_base.scss */
+body #myCanvas {
+  float: left;
+  color: blue;
+}
+/* line 12, ../components/sass/_base.scss */
 body .top {
   float: left;
   padding: 3px;
   font-family: chaparral-pro, Georgia, "Times New Roman", Times, serif;
   font-size: 1rem;
+  margin-left: -66px;
 }
-/* line 14, ../components/sass/_base.scss */
+/* line 19, ../components/sass/_base.scss */
 body .role {
   display: none;
 }
-/* line 17, ../components/sass/_base.scss */
+/* line 22, ../components/sass/_base.scss */
 body .name {
   display: none;
 }
-/* line 20, ../components/sass/_base.scss */
+/* line 25, ../components/sass/_base.scss */
+body .code {
+  font-family: source-code-pro, Monaco, Menlo, Consolas, "Courier New", monospace;
+}
+/* line 29, ../components/sass/_base.scss */
 body p {
   color: #333333;
 }
-/* line 23, ../components/sass/_base.scss */
+/* line 33, ../components/sass/_base.scss */
 body a {
   text-decoration: none;
 }
-/* line 24, ../components/sass/_base.scss */
+/* line 35, ../components/sass/_base.scss */
+body b {
+  font-weight: 800;
+}
+/* line 37, ../components/sass/_base.scss */
+body .space {
+  height: 0px;
+}
+/* line 40, ../components/sass/_base.scss */
 body .line {
   background-color: black;
-  height: 2px;
+  height: 5px;
 }
-/* line 28, ../components/sass/_base.scss */
+/* line 45, ../components/sass/_base.scss */
 body .lorem {
   background-color: none;
   border-top-color: black;
   border-top-style: solid;
   border-top-width: 1px;
 }
-/* line 34, ../components/sass/_base.scss */
+/* line 51, ../components/sass/_base.scss */
 body .typi {
   background-color: none;
   border-top-color: black;
@@ -176,47 +194,47 @@ body .typi {
 }
 
 @media (min-width: 30em) {
-  /* line 44, ../components/sass/_base.scss */
+  /* line 61, ../components/sass/_base.scss */
   body .name {
     display: inline;
   }
-  /* line 45, ../components/sass/_base.scss */
+  /* line 62, ../components/sass/_base.scss */
   body .role {
     display: inline;
   }
-  /* line 46, ../components/sass/_base.scss */
+  /* line 63, ../components/sass/_base.scss */
   body .icon {
     float: right;
   }
-  /* line 49, ../components/sass/_base.scss */
+  /* line 66, ../components/sass/_base.scss */
   body .lorem {
     width: 48.71795%;
     float: left;
     margin-right: 2.5641%;
   }
-  /* line 52, ../components/sass/_base.scss */
+  /* line 69, ../components/sass/_base.scss */
   body .typi {
     width: 48.71795%;
     float: right;
     margin-right: 0;
   }
 }
-/* line 58, ../components/sass/_base.scss */
+/* line 75, ../components/sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   text-shadow: blue 1px 1px;
 }
 
-/* line 65, ../components/sass/_base.scss */
+/* line 82, ../components/sass/_base.scss */
 a {
   color: #333333;
 }
-/* line 67, ../components/sass/_base.scss */
+/* line 84, ../components/sass/_base.scss */
 a:hover {
   color: #999999;
 }
 
-/* line 72, ../components/sass/_base.scss */
+/* line 89, ../components/sass/_base.scss */
 footer {
   clear: both;
 }
