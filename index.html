@@ -7,14 +7,13 @@
 	<link rel="stylesheet" href="css/styles.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
-<body class="page">
+<body>
+	<div class="page">
 	<header>
-		<div class="space"></div>
 		<div class="line"></div>
-		<div class="navigation">
 			<section class="layout">
-				<ul class="nav">
-				<li>
+			<ul>
+				
 				<canvas id="myCanvas" width="66" height="33"></canvas>
     <script>
       var canvas = document.getElementById('myCanvas');
@@ -27,9 +26,9 @@
       context.lineWidth = 1;
       context.stroke();
     </script>
-    			</li>
+    			
 					<li class="top">
-					<p>Jay Hori <span class="role">| Interaction Designer</span>
+					<p>Jay Hori <span class="role"> | Interaction Designer - UI & UX</span>
 					</p>
 					</li>
 					<li class="icon">
@@ -43,21 +42,24 @@
 						</a>
 					</li>
 				</ul>
+
 			</section><!-- layout -->
-		</div> <!-- navigation -->
 	</header><!-- header -->
-
-
 	<div class="layout lorem">
 		<p>
 			As a user interface specialist, I base my design decisions on <b>cognitive science</b>, and I <b>code</b> to excute my ideas. <a href="#"><u>more</u></a>
 		</p>
 	</div>
-		<p class="layout typi">Here is an example of what I do.</p>
-	<script src="js/script.js"></script>
-	<script src="http://localhost:35729/livereload.js"></script>
+	<div class="layout typi">
+		<p>Here is an example of what I do.</p>
+		<script src="js/script.js"></script>
+		<script src="http://localhost:35729/livereload.js"></script>
+	</div> <!-- page -->
 </body>
-<footer>
+<div class="page layout abovefooterlines"></div>
+<footer class="page layout">
+	<div class="oneline"></div>
+	<p>Test</p>
 	<input type="text" ng-model="name" placeholder="Enter a name here">
 	<p class="layout">Hello {{name}}!</p>
 </footer>

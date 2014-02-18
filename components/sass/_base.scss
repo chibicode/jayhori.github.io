@@ -1,3 +1,20 @@
+.line {
+    background-color: black;
+    height: 5px;
+  }
+
+.top {
+      float: left;
+      padding: 3px;
+      font-family: $font-display;
+      font-size: $font-size-regular;
+      margin-left: -66px;
+    }
+
+.role {
+      display: none;
+    }
+
 body {
 
   background-color: none;
@@ -9,37 +26,17 @@ body {
       float: left;
       color: blue;
     }
-    .top {
-      float: left;
-      padding: 3px;
-      font-family: $font-display;
-      font-size: $font-size-regular;
-      margin-left: -66px;
-    }
-    .role {
-      display: none;
-    }
-    .name {
-    display: none;
-  }
-    .code {
-      font-family: $font-code;
-    }
 
   p {
     color: $base-font-color;
 
   }
-  a { text-decoration: none; }
+
 
   b { font-weight: $font-weight-bold;}
 
   .space {
     height: 0px;
-  }
-  .line {
-    background-color: black;
-    height: 5px;
   }
 
   .lorem {
@@ -72,20 +69,28 @@ body {
   }
 }
 
-#{headings()} {
-  
-  font-weight: normal;
- 
-  @include text-shadow(blue 1px 1px);
-}
-
 a {
+  text-decoration: none;
   color: $base-font-color;
   &:hover {
     color: lighten($base-font-color, 40%);
   }
 }
 
+.abovefooterlines {
+  clear: both;
+  border-top-width: 3px;
+  height: 10px;
+  border-bottom-width: 1px;
+  border-color: black;
+}
+
 footer {
+  @include span-columns(8, 8);
+  background-color: $ghostwhite;
+  border-style: solid;
+  border-color: lighten(black, 33%);
+  border-top-width: 1px;
+  border-bottom-width: 2px;
   clear: both;
 }
